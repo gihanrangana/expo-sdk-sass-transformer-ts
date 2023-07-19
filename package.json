@@ -11,12 +11,15 @@
   "dependencies": {
     "expo": "~48.0.5",
     "expo-status-bar": "~1.4.4",
-    "react": "18.2.0",
-    "react-native": "gihanrangana/react-native#v0.71.3"
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-web": "~0.18.10"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@types/react": "~18.0.14",
+    "@babel/preset-env": "^7.22.9",
+    "@types/react": "~18.0.27",
     "babel-plugin-react-native-classname-to-style": "^1.2.2",
     "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
     "node-sass": "^8.0.0",

@@ -2,7 +2,7 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: $bg;
+    background-color: $dark1;
     padding: 10px;
 }
 
@@ -10,4 +10,10 @@
     color: $light0;
     font-size: rem(24px);
     text-align: center;
+}
+
+.bottomSheet {
+    // height: 200px;
+    width: 100%;
+    background-color: $bg;
 }

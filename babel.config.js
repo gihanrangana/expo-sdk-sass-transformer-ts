@@ -8,6 +8,8 @@ module.exports = function (api) {
                 "react-native-platform-specific-extensions",
                 { extensions: ["scss", "sass"] },
             ],
+            '@babel/plugin-proposal-export-namespace-from',
+            "react-native-reanimated/plugin"
         ],
     };
 };

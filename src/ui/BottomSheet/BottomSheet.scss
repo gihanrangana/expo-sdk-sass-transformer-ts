@@ -1,0 +1,16 @@
+.bottomSheetContainer {
+    background-color: $light0;
+    width: 100%;
+    position: absolute;
+    // border-top-left-radius: 25px;
+    // border-top-right-radius: 25px;
+}
+
+.line {
+    width: 75px;
+    height: 4px;
+    background-color: $light3;
+    align-self: center;
+    margin-top: 10px;
+    border-radius: 2px;
+}

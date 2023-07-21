@@ -7,7 +7,7 @@ module.exports = function (api) {
             [
                 "react-native-platform-specific-extensions",
                 { extensions: ["scss", "sass"] },
-            ],
+            ]
         ],
     };
 };

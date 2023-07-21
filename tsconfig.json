@@ -1,9 +1,23 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true,
-    "jsx": "react-native",
-    "baseUrl": "types",
-    "typeRoots": ["types"]
-  }
+    "baseUrl": "src",
+    "lib": ["es2015"],
+    "sourceMap": true,
+    "importHelpers": true,
+    "target": "es2015", // set target to ES2015 to avoid Type errors from libraries that use ES2015.
+    "module": "es2015",
+    "moduleResolution": "node",
+    "jsx": "react-native", // this needs to be react-native for styling to work
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "pretty": true,
+    "removeComments": true,
+    "strictNullChecks": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules"]
 }

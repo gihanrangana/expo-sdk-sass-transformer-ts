@@ -8,8 +8,8 @@ export default function App() {
 	console.log(styles);
 
 	return (
-		<SafeAreaView>
-			<View style={styles.container}>
+		<SafeAreaView style={styles.container}>
+			<View >
 				<Text style={styles.text}>This is app using scss to create styling the components</Text>
 				<StatusBar style="auto" />
 			</View>

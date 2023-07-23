@@ -1,7 +1,7 @@
 {
     "expo": {
-        "name": "marketplace-mobile",
-        "slug": "marketplace-mobile",
+        "name": "expo-sdk-sass-transformer",
+        "slug": "expo-sdk-sass-transformer",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/icon.png",
